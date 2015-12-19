@@ -1,7 +1,7 @@
 # Led Cube 8x8x8 Effects - Written in C
 Here are some nice effects for led cube with dimensions 8x8x8, as seen on instructables http://www.instructables.com/id/Led-Cube-8x8x8/
 
-The additional effects in this version are:
+The effects in this version extend the original effects.
 
 1. Snake (void snake);
 2. Walk through walls (void walk_through_walls);
