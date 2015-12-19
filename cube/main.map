@@ -1,0 +1,795 @@
+Archive member included because of file (symbol)
+
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+                              effect.o (__divmodhi4)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o (exit)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                              launch_effect.o (__do_copy_data)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                              main.o (__do_clear_bss)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o) (__udivmodhi4)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(rand.o)
+                              effect.o (rand)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32.o)
+                              font.o (__eerd_byte_m32)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(rand.o) (__mulsi3)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(rand.o) (__divmodsi4)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(rand.o) (__prologue_saves__)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(rand.o) (__epilogue_restores__)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o) (__udivmodsi4)
+
+Allocating common symbols
+Common symbol       size              file
+
+pgm_mode            0x1               main.o
+fb                  0x40              main.o
+cube                0x40              main.o
+current_layer       0x1               main.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+LOAD main.o
+LOAD draw.o
+LOAD effect.o
+LOAD font.o
+LOAD launch_effect.o
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libm.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x449a
+ *(.vectors)
+ .vectors       0x00000000       0x54 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table
+                0x00000054       0x2c launch_effect.o
+ *(.progmem*)
+ .progmem.data  0x00000080       0x2c font.o
+                0x00000080                paths
+                0x000000ac                . = ALIGN (0x2)
+                0x000000ac                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000000ac        0x0 linker stubs
+ *(.trampolines*)
+                0x000000ac                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000000ac                __ctors_start = .
+ *(.ctors)
+                0x000000ac                __ctors_end = .
+                0x000000ac                __dtors_start = .
+ *(.dtors)
+                0x000000ac                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000000ac        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x000000ac                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000000ac        0xc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000000b8       0x16 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                0x000000b8                __do_copy_data
+ .init4         0x000000ce       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                0x000000ce                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000de        0x8 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ *(.init9)
+ *(.text)
+ .text          0x000000e6        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+                0x000000e6                __vector_1
+                0x000000e6                __vector_12
+                0x000000e6                __bad_interrupt
+                0x000000e6                __vector_6
+                0x000000e6                __vector_3
+                0x000000e6                __vector_11
+                0x000000e6                __vector_13
+                0x000000e6                __vector_17
+                0x000000e6                __vector_19
+                0x000000e6                __vector_7
+                0x000000e6                __vector_5
+                0x000000e6                __vector_9
+                0x000000e6                __vector_2
+                0x000000e6                __vector_15
+                0x000000e6                __vector_8
+                0x000000e6                __vector_14
+                0x000000e6                __vector_10
+                0x000000e6                __vector_16
+                0x000000e6                __vector_18
+                0x000000e6                __vector_20
+ .text          0x000000ea      0x1c0 main.o
+                0x000001c2                rs232
+                0x0000017e                ioinit
+                0x0000027a                main
+                0x000000ea                __vector_4
+                0x0000022c                bootwait
+ .text          0x000002aa     0x1008 draw.o
+                0x00000320                clrvoxel
+                0x00000d92                shift
+                0x000004aa                argorder
+                0x00000a70                flipbyte
+                0x00001052                arrayCopy
+                0x00000528                setplane_x
+                0x000006a6                clrplane
+                0x000002aa                inrange
+                0x00000aca                line
+                0x000004ce                setplane_z
+                0x0000057e                clrplane_x
+                0x00000a48                byteline
+                0x000004fc                clrplane_z
+                0x0000045e                flpvoxel
+                0x00000630                setplane
+                0x00001050                draw3DSphere
+                0x00000718                fill
+                0x000011bc                mirror_y
+                0x0000129e                tmp2cube
+                0x00000406                getvoxel
+                0x000010fe                mirror_x
+                0x00000efa                drawCircle
+                0x00000822                box_walls
+                0x0000078c                box_filled
+                0x0000090a                box_wireframe
+                0x00000d74                delay_ms
+                0x0000044c                altervoxel
+                0x0000107a                mirror_z
+                0x0000036e                tmpsetvoxel
+                0x000002d2                tmpclrvoxel
+                0x00000752                tmpfill
+                0x000005d6                setplane_y
+                0x000003ba                setvoxel
+                0x00000604                clrplane_y
+ .text          0x000012b2     0x2b44 effect.o
+                0x00003456                planes_in_order
+                0x0000181a                snake
+                0x00001b18                fireworks
+                0x00003960                effect_path_text
+                0x000013ec                effect_blinky2
+                0x00003c10                effect_planboing
+                0x00001e7a                draw_positions_axis
+                0x00002536                filled_box_draw
+                0x00003ce4                effect_box_shrink_grow
+                0x000031e0                planes_exchange
+                0x000013aa                effect_telcstairs
+                0x00002e68                effect_rain
+                0x00003c62                effect_box_woopwoop
+                0x0000388c                effect_random_filler
+                0x00002224                effect_z_updown_move
+                0x00002fd8                crazy_straw
+                0x000035be                effect_stringfly2
+                0x00001d8e                effect_random_sparkle_flash
+                0x00003aa4                effect_rand_patharound
+                0x00002cda                sendvoxel_z
+                0x0000198a                diagonal_triangle
+                0x00003b76                effect_pathspiral
+                0x00002262                effect_z_updown
+                0x00001f4e                effect_boxside_randsend_parallel
+                0x00001360                effect_telcstairs_do
+                0x00001e38                effect_random_sparkle
+                0x000037e0                effect_pathmove
+                0x00002f0e                bomb
+                0x00002990                border_box
+                0x000012b2                effect_loadbar
+                0x00002d78                sendvoxels_rand_z
+                0x000023ce                walk_through_walls
+                0x000025d6                moving_boxes
+                0x000020ba                effect_axis_updown_randsuspend
+ .text          0x00003df6       0xf6 font.o
+                0x00003ea4                font_getchar
+                0x00003e2a                font_getbitmappixel
+                0x00003e58                font_getbitmap
+                0x00003df6                font_getpath
+ .text          0x00003eec      0x364 launch_effect.o
+                0x00003eec                launch_effect
+ .text          0x00004250        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+ .text          0x00004250        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text          0x00004250        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text          0x00004250        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00004250        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .text          0x00004250        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(rand.o)
+ .text          0x00004250        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32.o)
+ .text          0x00004250        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .text          0x00004250        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
+ .text          0x00004250        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .text          0x00004250        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .text          0x00004250        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                0x00004250                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x00004250       0x26 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+                0x00004250                __divmodhi4
+                0x00004250                _div
+ .text.libgcc   0x00004276        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x00004276        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x00004276        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00004276       0x28 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                0x00004276                __udivmodhi4
+ .text.avr-libc
+                0x0000429e       0xc2 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(rand.o)
+                0x0000433a                rand_r
+                0x00004340                rand
+                0x0000434a                srand
+ .text.avr-libc
+                0x00004360       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32.o)
+                0x00004360                __eerd_byte_m32
+ .text.libgcc   0x00004370       0x3e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                0x00004370                __mulsi3
+ .text.libgcc   0x000043ae       0x36 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
+                0x000043ae                __divmodsi4
+ .text.libgcc   0x000043e4       0x38 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                0x000043e4                __prologue_saves__
+ .text.libgcc   0x0000441c       0x36 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                0x0000441c                __epilogue_restores__
+ .text.libgcc   0x00004452       0x44 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                0x00004452                __udivmodsi4
+                0x00004496                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00004496        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                0x00004496                exit
+                0x00004496                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00004496        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000449a                _etext = .
+
+.data           0x00800060        0x4 load address 0x0000449a
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .data          0x00800060        0x0 main.o
+ .data          0x00800060        0x0 draw.o
+ .data          0x00800060        0x0 effect.o
+ .data          0x00800060        0x0 font.o
+ .data          0x00800060        0x0 launch_effect.o
+ .data          0x00800060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+ .data          0x00800060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .data          0x00800060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .data          0x00800060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .data          0x00800060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x00800060        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(rand.o)
+ .data          0x00800064        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32.o)
+ .data          0x00800064        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .data          0x00800064        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
+ .data          0x00800064        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .data          0x00800064        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .data          0x00800064        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x00800064                . = ALIGN (0x2)
+                0x00800064                _edata = .
+                0x00800064                PROVIDE (__data_end, .)
+
+.bss            0x00800064       0x82
+                0x00800064                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800064        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+ .bss           0x00800064        0x0 main.o
+ .bss           0x00800064        0x0 draw.o
+ .bss           0x00800064        0x0 effect.o
+ .bss           0x00800064        0x0 font.o
+ .bss           0x00800064        0x0 launch_effect.o
+ .bss           0x00800064        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+ .bss           0x00800064        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+ .bss           0x00800064        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00800064        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00800064        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x00800064        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(rand.o)
+ .bss           0x00800064        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32.o)
+ .bss           0x00800064        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+ .bss           0x00800064        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
+ .bss           0x00800064        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+ .bss           0x00800064        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+ .bss           0x00800064        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x00800064       0x82 main.o
+                0x00800064                pgm_mode
+                0x00800065                fb
+                0x008000a5                cube
+                0x008000e5                current_layer
+                0x008000e6                PROVIDE (__bss_end, .)
+                0x0000449a                __data_load_start = LOADADDR (.data)
+                0x0000449e                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008000e6        0x0
+                0x008000e6                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x008000e6                PROVIDE (__noinit_end, .)
+                0x008000e6                _end = .
+                0x008000e6                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000      0x1f7
+ *(.eeprom*)
+ .eeprom        0x00810000      0x1f7 font.o
+                0x00810000                font
+                0x008101c7                bitmaps
+                0x008101f7                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0xa0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 main.o
+ .debug_aranges
+                0x00000020       0x20 draw.o
+ .debug_aranges
+                0x00000040       0x20 effect.o
+ .debug_aranges
+                0x00000060       0x20 font.o
+ .debug_aranges
+                0x00000080       0x20 launch_effect.o
+
+.debug_pubnames
+                0x00000000      0x61e
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x7b main.o
+ .debug_pubnames
+                0x0000007b      0x1f2 draw.o
+ .debug_pubnames
+                0x0000026d      0x2ff effect.o
+ .debug_pubnames
+                0x0000056c       0x7e font.o
+ .debug_pubnames
+                0x000005ea       0x34 launch_effect.o
+
+.debug_info     0x00000000     0x28d3
+ *(.debug_info)
+ .debug_info    0x00000000      0x1ae main.o
+ .debug_info    0x000001ae      0xf1a draw.o
+ .debug_info    0x000010c8     0x14bb effect.o
+ .debug_info    0x00002583      0x277 font.o
+ .debug_info    0x000027fa       0xd9 launch_effect.o
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0x78f
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0xed main.o
+ .debug_abbrev  0x000000ed      0x2ba draw.o
+ .debug_abbrev  0x000003a7      0x215 effect.o
+ .debug_abbrev  0x000005bc      0x132 font.o
+ .debug_abbrev  0x000006ee       0xa1 launch_effect.o
+
+.debug_line     0x00000000     0x2848
+ *(.debug_line)
+ .debug_line    0x00000000      0x2ac main.o
+ .debug_line    0x000002ac      0x9b3 draw.o
+ .debug_line    0x00000c5f     0x1881 effect.o
+ .debug_line    0x000024e0      0x115 font.o
+ .debug_line    0x000025f5      0x253 launch_effect.o
+
+.debug_frame    0x00000000      0x550
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x60 main.o
+ .debug_frame   0x00000060      0x230 draw.o
+ .debug_frame   0x00000290      0x250 effect.o
+ .debug_frame   0x000004e0       0x50 font.o
+ .debug_frame   0x00000530       0x20 launch_effect.o
+
+.debug_str      0x00000000      0x6ff
+ *(.debug_str)
+ .debug_str     0x00000000       0xd2 main.o
+                                0x10b (size before relaxing)
+ .debug_str     0x000000d2      0x1b9 draw.o
+                                0x2a2 (size before relaxing)
+ .debug_str     0x0000028b      0x3da effect.o
+                                0x500 (size before relaxing)
+ .debug_str     0x00000665       0x7c font.o
+                                0x158 (size before relaxing)
+ .debug_str     0x000006e1       0x1e launch_effect.o
+                                 0xdd (size before relaxing)
+
+.debug_loc      0x00000000     0x33b0
+ *(.debug_loc)
+ .debug_loc     0x00000000       0xd8 main.o
+ .debug_loc     0x000000d8     0x102e draw.o
+ .debug_loc     0x00001106     0x20da effect.o
+ .debug_loc     0x000031e0      0x168 font.o
+ .debug_loc     0x00003348       0x68 launch_effect.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(main.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+__bad_interrupt                                   c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+__bss_end                                         c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+__bss_start                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+__data_end                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+__data_load_start                                 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+__data_start                                      c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+__divmodhi4                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+                                                  effect.o
+__divmodsi4                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(rand.o)
+__do_clear_bss                                    c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_clear_bss.o)
+                                                  launch_effect.o
+                                                  effect.o
+                                                  draw.o
+                                                  main.o
+__do_copy_data                                    c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_copy_data.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(rand.o)
+                                                  launch_effect.o
+__eerd_byte_m32                                   c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(eerd_byte_atmega32.o)
+                                                  font.o
+__epilogue_restores__                             c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_epilogue.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(rand.o)
+__heap_end                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+__init                                            c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+__mulsi3                                          c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_mulsi3.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(rand.o)
+__prologue_saves__                                c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_prologue.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(rand.o)
+__stack                                           c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+__udivmodhi4                                      c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodhi4.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+__udivmodsi4                                      c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_udivmodsi4.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodsi4.o)
+__vector_1                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+__vector_10                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+__vector_11                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+__vector_12                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+__vector_13                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+__vector_14                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+__vector_15                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+__vector_16                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+__vector_17                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+__vector_18                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+__vector_19                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+__vector_2                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+__vector_20                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+__vector_3                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+__vector_4                                        main.o
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+__vector_5                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+__vector_6                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+__vector_7                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+__vector_8                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+__vector_9                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+__vector_default                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+__vectors                                         c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+_div                                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_divmodhi4.o)
+_exit                                             c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+altervoxel                                        draw.o
+                                                  effect.o
+argorder                                          draw.o
+arrayCopy                                         draw.o
+bitmaps                                           font.o
+bomb                                              effect.o
+                                                  launch_effect.o
+bootwait                                          main.o
+border_box                                        effect.o
+                                                  launch_effect.o
+box_filled                                        draw.o
+box_walls                                         draw.o
+box_wireframe                                     draw.o
+                                                  effect.o
+byteline                                          draw.o
+clrplane                                          draw.o
+clrplane_x                                        draw.o
+                                                  effect.o
+clrplane_y                                        draw.o
+                                                  effect.o
+clrplane_z                                        draw.o
+                                                  effect.o
+clrvoxel                                          draw.o
+                                                  effect.o
+crazy_straw                                       effect.o
+                                                  launch_effect.o
+cube                                              launch_effect.o
+                                                  effect.o
+                                                  draw.o
+                                                  main.o
+current_layer                                     main.o
+delay_ms                                          draw.o
+                                                  launch_effect.o
+                                                  effect.o
+                                                  main.o
+diagonal_triangle                                 effect.o
+                                                  launch_effect.o
+draw3DSphere                                      draw.o
+drawCircle                                        draw.o
+                                                  effect.o
+draw_positions_axis                               effect.o
+effect_axis_updown_randsuspend                    effect.o
+                                                  launch_effect.o
+effect_blinky2                                    effect.o
+                                                  launch_effect.o
+effect_box_shrink_grow                            effect.o
+                                                  launch_effect.o
+effect_box_woopwoop                               effect.o
+                                                  launch_effect.o
+effect_boxside_randsend_parallel                  effect.o
+                                                  launch_effect.o
+effect_loadbar                                    effect.o
+                                                  launch_effect.o
+effect_path_text                                  effect.o
+effect_pathmove                                   effect.o
+effect_pathspiral                                 effect.o
+effect_planboing                                  effect.o
+                                                  launch_effect.o
+effect_rain                                       effect.o
+                                                  launch_effect.o
+effect_rand_patharound                            effect.o
+                                                  launch_effect.o
+effect_random_filler                              effect.o
+                                                  launch_effect.o
+effect_random_sparkle                             effect.o
+                                                  launch_effect.o
+effect_random_sparkle_flash                       effect.o
+effect_stringfly2                                 effect.o
+effect_telcstairs                                 effect.o
+                                                  launch_effect.o
+effect_telcstairs_do                              effect.o
+effect_z_updown                                   effect.o
+                                                  launch_effect.o
+effect_z_updown_move                              effect.o
+exit                                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr5\libgcc.a(_exit.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+fb                                                launch_effect.o
+                                                  effect.o
+                                                  draw.o
+                                                  main.o
+fill                                              draw.o
+                                                  launch_effect.o
+                                                  effect.o
+filled_box_draw                                   effect.o
+fireworks                                         effect.o
+flipbyte                                          draw.o
+flpvoxel                                          draw.o
+font                                              font.o
+font_getbitmap                                    font.o
+font_getbitmappixel                               font.o
+font_getchar                                      font.o
+                                                  effect.o
+font_getpath                                      font.o
+                                                  effect.o
+getvoxel                                          draw.o
+                                                  effect.o
+inrange                                           draw.o
+                                                  effect.o
+ioinit                                            main.o
+launch_effect                                     launch_effect.o
+                                                  main.o
+line                                              draw.o
+                                                  effect.o
+main                                              main.o
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm32.o
+mirror_x                                          draw.o
+                                                  effect.o
+mirror_y                                          draw.o
+                                                  effect.o
+mirror_z                                          draw.o
+                                                  effect.o
+moving_boxes                                      effect.o
+                                                  launch_effect.o
+paths                                             font.o
+pgm_mode                                          main.o
+planes_exchange                                   effect.o
+                                                  launch_effect.o
+planes_in_order                                   effect.o
+                                                  launch_effect.o
+rand                                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(rand.o)
+                                                  effect.o
+rand_r                                            c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(rand.o)
+rs232                                             main.o
+sendvoxel_z                                       effect.o
+sendvoxels_rand_z                                 effect.o
+                                                  launch_effect.o
+setplane                                          draw.o
+                                                  effect.o
+setplane_x                                        draw.o
+                                                  effect.o
+setplane_y                                        draw.o
+                                                  effect.o
+setplane_z                                        draw.o
+                                                  effect.o
+setvoxel                                          draw.o
+                                                  effect.o
+shift                                             draw.o
+                                                  effect.o
+snake                                             effect.o
+                                                  launch_effect.o
+srand                                             c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5\libc.a(rand.o)
+                                                  main.o
+tmp2cube                                          draw.o
+                                                  main.o
+tmpclrvoxel                                       draw.o
+tmpfill                                           draw.o
+tmpsetvoxel                                       draw.o
+walk_through_walls                                effect.o
+                                                  launch_effect.o
