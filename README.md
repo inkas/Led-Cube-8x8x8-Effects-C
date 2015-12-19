@@ -13,5 +13,5 @@ The effects in this version extends the original version.
 8. Arranging walls (void planes_in_order);
 9. Box border animation (void border_box);
 
-Building each of the cubes took me about a week.
+Building each of the cubes took me about a week and half.
 Final result: https://www.youtube.com/watch?v=-E7VCSdh1GE
